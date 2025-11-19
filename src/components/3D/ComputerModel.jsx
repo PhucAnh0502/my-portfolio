@@ -2,7 +2,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const ComputerModel = () => {
-    const { scene } = useGLTF('/models/gaming_desktop_pc.glb', true)
+    const { scene } = useGLTF('models/gaming_desktop_pc.glb', true)
 
     return (
         <primitive
